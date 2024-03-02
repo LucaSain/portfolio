@@ -1,0 +1,20 @@
+---
+import AnimatedDot from "../components/animatedDot";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <div
+    class="prose mx-auto dark:prose-text-content px-2 min-h-screen h-max bg-white dark:bg-base-100 w-screen"
+  >
+    <h1
+      class="flex flex-row mb-0 text-center text-6xl font-bold text-neutral lg:text-9xl dark:text-neutral-content"
+    >
+      Blog <AnimatedDot client:only />
+    </h1>
+
+    <h2><a href="/courses/Calculus/Course 1">Calculus/Course 1</a></h2>
+    <p>Calculus II. Last updated: 03/03</p>
+    <div class="divider"></div>
+  </div>
+</Layout>
