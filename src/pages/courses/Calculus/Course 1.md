@@ -191,7 +191,7 @@ And solving it we obtain:
 $$ \lim_{x \to \infty} \frac{x^{\alpha+1}}{x^\frac{5}{2}}\frac{1+\frac{1}{x}}{1+\frac{2}{x}} = \lim_{x \to \infty} \frac{x^{\alpha+1}}{x^\frac{5}{2}}$$
 
 
-We imposed the condition that the limit is in $(0,+\infty)$. Thus, the only case the verifies the condition is:
+We imposed the condition that the limit is in $(0,+\infty)$. Thus, the only case that verifies the condition is:
 
 
 $$ x^{\alpha+1}=x^{\frac{5}{2}} \Leftrightarrow \alpha+1=\frac{5}{2} \Leftrightarrow \alpha =\frac{3}{2}$$
