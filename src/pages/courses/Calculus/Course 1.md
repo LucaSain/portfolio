@@ -76,7 +76,7 @@ Compute the area $\ln:(0,1] \rightarrow R$
 $$
 A(a)=\int_\epsilon^1|ln(x)|dx = -\int_\epsilon^1\ln(x)dx = -(-\epsilon\ln(\epsilon)-1+\epsilon), \epsilon \to 0 = 1
 $$
-Compute the area $e^x$ The area is still 1 👌.
+Compute the area $e^x$ As of the symmetry of the graphs, the area is still 1 👌.
 Here's an animation to illustrate the Riemann Summation:
 
 <figure>
@@ -103,10 +103,18 @@ $$\int_1^{\infty}\frac{1}{x^2} \mathit{is \space convergent}$$
 $$\int_1^\infty \frac{1}{x} \mathit{ \space is \space divergent}  $$
 
 
-**Tests of convergence**
-let $\int_a^bf(x) \quad f \ge 0  \space(at \space b)_{b \space \epsilon \space \Re} \quad \mathit{if} \space (b-x)^\alpha f(x)\epsilon(0,\infty)$
+## Tests of convergence
+Let $\int_a^bf(x)$ such that:
 
-## Tests of convergence recap
+
+$$f \ge 0  \space(at \space b)_{b \space \epsilon \space \Re} \quad \mathit{if} \space (b-x)^\alpha f(x)\epsilon(0,\infty) \Rightarrow \int_a^b f \sim \int_a^b\frac{1}{(b-x)^\alpha}$$
+
+More:
+
+
+$$\displaylines{ \text{Let} \int_a^\infty f(x) dx \space \text{and} \space lim_{x \to \infty} x^\alpha f(x) \epsilon(0,+\inf); \\ \text{then} \int_a^\infty f \sim \int_a^\infty \frac{1}{x^\alpha}}$$
+
+### Tests of convergence recap
 
 | Name                                 | Formulae                                       | Convergence                                                                                                                                                      | Divergence                   |
 |--------------------------------------|------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------|
@@ -116,7 +124,7 @@ let $\int_a^bf(x) \quad f \ge 0  \space(at \space b)_{b \space \epsilon \space \
 | Stolz-Cesaro Theorem                 | $\lim_{n \to \infty}\frac{a_n}{b_n}=l$         | $\displaylines{(b_n)_{n\ge 1}\\ \mathit{strictly \space monotone \space \\ and \space divergent \space}}$ $lim_{n \to \infty} \frac{a_{n+1}-a_n}{b_{n+1}-b{n}}=l$ | \-                           |
 | Riemann series/ Harmonic series      | $x \to \infty$                                 | $\frac{-1}{x}$                                                                                                                                                   | $\frac{1}{x}$                |
 
-## New tests of convergence
+### More tests of convergence
 
 The integral test:
 
@@ -133,7 +141,10 @@ $$\displaylines{if \space f \space is \space a \space monotone \space decreasing
 
 ## Exercises:
 
-Calculate the integral and determine the convergence of:
+Study the nature of the integrals:
+
+
+
 $$\int_0^1\frac{1}{\sqrt{x}}dx$$
 
 1. Let's write down the integral:
@@ -150,17 +161,45 @@ Here's a [video](https://www.youtube.com/watch?v=L16yPgIrIxU) for this integral.
 
 Now, for another one:
 
+
+
 $$\int_1^\infty\frac{1}{\sqrt{x}}dx$$
+
+
+
 Note that this integral is quite similar, but since the domain differs we can foresee a different result. Straight to the computation we have:
 
 $$2\lim_{t \to \infty}(1^{\frac{1}{2}}-t^{\frac{1}{2}})=-\infty$$
 
 
-The limit is not in $R$. The integral is divergent.
+The limit is not in $R$. The integral is **divergent**.
 
-For the last one:
+The last one:
 
-$$\int_1^\infty\frac{x+1}{(x^2+2)\sqrt{x}}dx$$
+$$\int_0^\infty\frac{x+1}{(x^2+2)\sqrt{x}}dx$$
 
 
-i don't f know:)))
+We shall use the $x^\alpha$ test. Let's write the limit:
+
+
+$$ \lim_{x \to \infty} x^\alpha\frac{x+1}{(x^2+2)\sqrt(x)} \epsilon(0,+\infty)$$
+
+
+And solving it we obtain:
+
+
+$$ \lim_{x \to \infty} \frac{x^{\alpha+1}}{x^\frac{5}{2}}\frac{1+\frac{1}{x}}{1+\frac{2}{x}} = \lim_{x \to \infty} \frac{x^{\alpha+1}}{x^\frac{5}{2}}$$
+
+
+We imposed the condition that the limit is in $(0,+\infty)$. Thus, the only case the verifies the condition is:
+
+
+$$ x^{\alpha+1}=x^{\frac{5}{2}} \Leftrightarrow \alpha+1=\frac{5}{2} \Leftrightarrow \alpha =\frac{3}{2}$$
+
+Finally, we can use the similarity:
+
+
+$$ \int_0^\infty f \sim \int_0^\infty \frac{1}{x^{\frac{3}{2}}}$$
+
+
+And, because $\alpha>0$ the integral is **convergent**.
