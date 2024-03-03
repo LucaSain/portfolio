@@ -5,7 +5,7 @@ layout: "../../../layouts/PostLayout.astro"
 
 Calculus is an extension of the *Euclidian Geometry*
 *The area of a rect with the l of a irrational number*
-![Course 1 2024-02-29 08.09.57.excalidraw](/Course%201%202024-02-29%2008.09.57.excalidraw.svg "wikilink")
+![Course 1 2024-02-29 08.09.57.excalidraw](/Course%201%202024-02-29%2008.09.57.excalidraw.svg )
 
 **Theorem**
 
@@ -14,20 +14,20 @@ $$\displaylines{\displaylines {r_n \epsilon Q \space r_n \rightarrow x \\ \rho_n
 # The area under the graph of a function
 
 The fundamental theorem of calculus. The theorem of Leibniz-Newton.
-![Course 1 2024-02-29 08.28.42.excalidraw](/Course%201%202024-02-29%2008.28.42.excalidraw.svg "wikilink")
+![Course 1 2024-02-29 08.28.42.excalidraw](/Course%201%202024-02-29%2008.28.42.excalidraw.svg )
 $$A=F(b)-F(a), F'=f$$
 $$\int_a^bf(x)dx=A$$
 
 ## Proof
 
-![Course 1 2024-02-29 08.33.38.excalidraw](/Course%201%202024-02-29%2008.33.38.excalidraw.svg "wikilink")
+![Course 1 2024-02-29 08.33.38.excalidraw](/Course%201%202024-02-29%2008.33.38.excalidraw.svg )
 Newton looked at the derivative of the Area of $f(x)$.
 The area of the rectangle is: $$\displaylines{(y-x)*m\le A(y) - A(x)\le M(y-x) \\ m \le \frac{A(y) -A(x)}{y-x}\le M \\ \lim_{x \to y}\frac{A(y)-A(x)}{y-x}=A'(y)}$$
 
 ## The Riemann integral
 
 $$f:[a,b] \rightarrow R $$
-![Course 1 2024-02-29 09.04.31.excalidraw](/Course%201%202024-02-29%2009.04.31.excalidraw.svg "wikilink")
+![Course 1 2024-02-29 09.04.31.excalidraw](/Course%201%202024-02-29%2009.04.31.excalidraw.svg )
 *Fermat found the formula for the area of $x^\alpha$ but the formula for $x^{-1}$.*
 
 
@@ -66,7 +66,7 @@ We are going to define the generalisations of this formulas.
 ### Improper Riemann integrals
 
 <figure>
-<img src="/Course 1 2024-02-29 09.28.29.excalidraw.svg" title="wikilink"
+<img src="/Course 1 2024-02-29 09.28.29.excalidraw.svg" title=
 alt="Course12024-02-2909.28.29.excalidraw" />
 </figure>
 
@@ -78,7 +78,11 @@ A(a)=\int_\epsilon^1|ln(x)|dx = -\int_\epsilon^1\ln(x)dx = -(-\epsilon\ln(\epsil
 $$
 Compute the area $e^x$ The area is still 1 👌.
 Here's an animation to illustrate the Riemann Summation:
-![CreateCircle.mp4](/CreateCircle.mp4 "wikilink")
+
+<figure>
+<img class="video" src="/CreateCircle.mp4" title=
+alt="CreateCircle.mp4" />
+</figure>
 
 **Definition**
 
