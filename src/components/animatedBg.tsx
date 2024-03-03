@@ -12,7 +12,7 @@ export default function AnimatedBg() {
               type: "spring",
               duration: 1,
             }}
-            className="absolute h-[30%] w-[25%] rounded-full bg-gradient-radial from-white via-white to-gray-300 shadow-2xl sm:h-1/5 sm:w-[52%] md:w-[52%]  "
+            className="absolute h-[30%] w-[25%] rounded-full bg-gradient-radial from-base-100 via-base-100 to-neutral shadow-2xl sm:h-1/5 sm:w-[52%] md:w-[52%]  "
           />
         );
       })}

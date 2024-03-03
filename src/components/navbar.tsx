@@ -11,7 +11,7 @@ export default function Navbar() {
   ];
 
   return (
-    <div className="flex w-max max-w-screen-sm justify-center rounded-xl p-2 shadow-xl backdrop-blur-lg dark:text-white text-black">
+    <div className="flex w-max max-w-screen-sm justify-center rounded-xl p-2 shadow-xl backdrop-blur-lg">
       {links.map((link) => {
         return (
           <a
