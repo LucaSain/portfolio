@@ -9,7 +9,6 @@ Calculus is an extension of the *Euclidian Geometry*
 
 **Theorem**
 
-
 $$\displaylines{\displaylines {r_n \epsilon Q \space r_n \rightarrow x \\ \rho_n \epsilon Q \space \rho_n \rightarrow y } \space \space r_n \cdot \rho_n \rightarrow xy  }$$
 
 # The area under the graph of a function
@@ -80,10 +79,12 @@ $$
 Compute the area $e^x$ The area is still 1 👌.
 Here's an animation to illustrate the Riemann Summation:
 ![CreateCircle.mp4](/CreateCircle.mp4 "wikilink")
-**Definition**$$\displaylines{f \rightarrow R, b \space \epsilon \space R\cup\set{\infty} \\ \int_a^bf(x)dx \space \text{is  convergent if} \\
-\lim_{\displaylines{{u \to b} \\ u \lt b}} \int_a^bf(x)dx \space \epsilon \space \Re \\ 
-\text{if yes} \\ 
-\int_a^bf(x)dx=\lim_{\displaylines{{u \to b} \\ u<b } } \int_a^uf(x)dx } $$
+
+**Definition**
+
+
+*$$\displaylines{f \rightarrow R, b \space \epsilon \space R\cup\set{\infty} \\ \int_a^bf(x)dx \space \text{is  convergent if} \\ \lim_{\displaylines{{u \to b} \\ u \lt b}} \int_a^bf(x)dx \space \epsilon \space \Re \\ 
+\text{if yes} \\ \int_a^bf(x)dx=\lim_{\displaylines{{u \to b} \\ u \lt b } } \int_a^uf(x)dx } $$
 
 The analogy with the theory of series goes **deeper** than just the formulations
 For example:

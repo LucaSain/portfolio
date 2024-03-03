@@ -13,7 +13,7 @@ export default {
 	},
 
 	daisyui: {
-		themes: ["lofi"],
+		themes: ["black"],
 
 	},
 	plugins: [require("daisyui"), require("@tailwindcss/typography")],
