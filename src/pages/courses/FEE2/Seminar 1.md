@@ -73,7 +73,10 @@ The elementary electromagnetic components are the proton(+) and the electron(-).
 The particles can hold charges positive and negative respectively. When a positive charge _connects_ with a negative one, an electric dipole is formed.
 The force exercised by two particles is given by **Coulomb's law**:
 
+
 $$ |F|=k\frac{|q_1q_2|}{r^2} $$
+
+
 Where $q_1,q_2$ are the electric charges of the particles. $k$ is the **Coulomb's constant** and $r$ is the distance between particles.
 
 ![Seminar 1 2024-03-04 19.50.37.excalidraw.svg](/Seminar%201%202024-03-04%2019.50.37.excalidraw.svg)
@@ -137,7 +140,7 @@ And we can see that $\vec{E}_{1y}=-\vec{E}_{2y}$ all the day and all the night. 
 
 $$\vec{E}_1+\vec{E}_2 = \vec{E}_1\cos\frac{\pi}{3} + \vec{E}_2\cos\frac{\pi}{3} = 2 \vec{E}_1\cos\frac{\pi}{3}$$
 
-Finally, applying the formula from Coulomb's law:
+Finally, applying the formula for the Electric Field Strength:
 
 $$\displaylines{\vec{E}=\frac{q}{4\pi\epsilon_0r^2}\frac{\bar{r}}{r} = \frac{10^{-6}}{4\pi\frac{1}{4\pi\space9\times10^9}16\times10^4}\frac{-4cm\space\vec{i}}{4cm}=\\-\frac{10^{-10}\times10^{9}}{16}\vec{i}=-\frac{1}{160}\vec{i}}$$
 
