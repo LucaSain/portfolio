@@ -6,7 +6,8 @@ dist/
 
 # dependencies
 node_modules/
-
+public/.git/
+public/.gitignore
 # logs
 npm-debug.log*
 yarn-debug.log*
