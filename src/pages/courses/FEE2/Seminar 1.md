@@ -139,6 +139,8 @@ $$\vec{E}_1+\vec{E}_2 = \vec{E}_1\cos\frac{\pi}{3} + \vec{E}_2\cos\frac{\pi}{3} 
 
 Finally, applying the formula from Coulomb's law:
 
-$$\displaylines{\vec{E}=\frac{q}{4\pi\epsilon_0r^2}\frac{\bar{r}}{r} = \frac{10^{-6}}{4\pi\frac{1}{4\pi\space9\times10^9}16\times10^4}\frac{4cm\space\vec{i}}{4cm}=\\\frac{10^{-10}\times10^{9}}{16}\vec{i}=\frac{1}{160}\vec{i}}$$
+$$\displaylines{\vec{E}=\frac{q}{4\pi\epsilon_0r^2}\frac{\bar{r}}{r} = \frac{10^{-6}}{4\pi\frac{1}{4\pi\space9\times10^9}16\times10^4}\frac{-4cm\space\vec{i}}{4cm}=\\-\frac{10^{-10}\times10^{9}}{16}\vec{i}=-\frac{1}{160}\vec{i}}$$
+
+_note the negative sign that results from the orientation of the axis_
 
 Done 🥳.
