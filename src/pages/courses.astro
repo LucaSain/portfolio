@@ -1,6 +1,15 @@
 ---
 import AnimatedDot from "../components/animatedDot";
 import Layout from "../layouts/Layout.astro";
+
+let courses = [
+  "Calculus 2",
+  "Data Structures and Algorithms",
+  "Physics",
+  "Fundemantals of Electrical Engineering 2",
+  "Web Programming",
+  "Electronic Devices",
+];
 ---
 
 <Layout title="Welcome to Astro.">
@@ -8,9 +17,12 @@ import Layout from "../layouts/Layout.astro";
     <h1 class="flex flex-row mb-0 text-center text-6xl font-bold lg:text-7xl">
       Courses <AnimatedDot client:only />
     </h1>
-
-    <h2><a href="/courses/Calculus/Course 1">Calculus/Course 1</a></h2>
-    <p>Calculus II. Last updated: 03/03</p>
-    <div class="divider"></div>
+    {
+      courses.map((course) => (
+        <h2>
+          <a href={"/courses/" + course}>{course}</a>
+        </h2>
+      ))
+    }
   </div>
 </Layout>
