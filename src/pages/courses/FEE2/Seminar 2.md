@@ -78,7 +78,7 @@ $$\vec{E}(M)=\frac{\rho_l}{4\pi\epsilon_0a}[(\cos0+\cos\alpha_1)\vec{i}+(\sin\al
 
 $$\vec{E}(M)=\frac{\rho_l}{4\pi\epsilon_0a}[(1+\cos\alpha_1)\vec{i}+(\sin\alpha_1)\vec{j}]$$
 
-**Symmetric wire.** Check [[FEE2/Course 1|Course 1]].
+**Symmetric wire.** Check [FEE2/Course 1](/courses/FEE2/Course%201).
 Compute $E(M)$:
 After a quick observation we conclude that this is the case of an isosceles triangle.
 

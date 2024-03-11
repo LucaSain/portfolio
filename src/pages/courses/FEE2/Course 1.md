@@ -116,7 +116,7 @@ _We solve the last integral by integrating by parts and after simplifying the te
 $$E_x=\frac{Q}{4\pi \epsilon_0 }\frac{1}{x\sqrt{x^2+a^2}}$$
 
 
-Or written 🥐 in a more comprehensive way (check [[Seminar 2]]):
+Or written 🥐 in a more comprehensive way (check [FEE2/Seminar 2](/courses/FEE2/Seminar%202)):
 
 
 $$E_x=\frac{\rho_l \cos\alpha}{2\pi\epsilon_0a}$$
