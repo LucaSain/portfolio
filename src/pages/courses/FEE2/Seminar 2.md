@@ -81,7 +81,11 @@ $$\vec{E}(M)=\frac{\rho_l}{4\pi\epsilon_0a}[(1+\cos\alpha_1)\vec{i}+(\sin\alpha_
 **Symmetric wire.** Check [[FEE2/Course 1|Course 1]].
 Compute $E(M)$:
 After a quick observation we conclude that this is the case of an isosceles triangle.
-![[Seminar 2 2024-03-08 16.00.15.excalidraw.svg]]
+
+
+![Seminar 2 2024-03-08 16.00.15.excalidraw.svg](/Seminar%202%202024-03-08%2016.00.15.excalidraw.svg)
+
+
 Now, it's only a matter of replacing the angles with the same one in order to get the final equation.
 
 $$\vec{E}(M)=\frac{\rho_l}{4\pi\epsilon_0a}[(\cos\alpha+\cos\alpha)\vec{i}+(\sin\alpha-\sin\alpha)\vec{j}]$$
@@ -175,4 +179,6 @@ $$E_y=\frac{\rho_s}{4\pi\epsilon_0}\int_0^{2\pi}d\alpha\int_0^\alpha\frac{R^2dR}
 ## Homework:
 
 The donut.
+
+
 Recap area and volume
