@@ -2,7 +2,6 @@
 interface Props {
   title: string;
 }
-import Navbar from "../components/navbar";
 const { title } = Astro.props;
 ---
 
@@ -22,7 +21,7 @@ const { title } = Astro.props;
     <meta name="generator" content={Astro.generator} />
     <title>{title}</title>
   </head>
-  <body class="min-h-screen h-max w-screen">
+  <body class="min-h-screen h-max w-screen bg-base-100">
     <div
       class="sm:prose-xl prose mx-auto py-4 pb-24 px-2 prose-table:overflow-auto prose-table:max-w-sm"
     >
