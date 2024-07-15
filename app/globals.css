@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* @import url("https://cdnjs.cloudflare.com/ajax/libs/prism-themes/1.9.0/prism-coy-without-shadows.min.css"); */
+
+
+body,html{
+  margin: 0;
+}
+
+/* Center the container */
+mjx-container{
+  @apply bg-neutral text-neutral-content rounded-md !flex !justify-center border-neutral;
+  padding: 1rem;
+}
+
+img{
+  @apply rounded-md shadow-md;
+}
+
+pre {
+  @apply !bg-neutral;
+}
+
+@media (prefers-color-scheme: dark) {
+  img {
+    filter: invert(1);
+    box-shadow: none;
+  }
+  p>mjx-container{
+    @apply !text-neutral-content;
+  }
+}
+
+
+p>mjx-container{
+  display: inline-block !important;
+  justify-content: start !important;
+  background: transparent;
+  border:0;
+  @apply rounded-none text-neutral;
+  padding: 0;
+}
+
