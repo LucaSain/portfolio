@@ -17,6 +17,6 @@ const client = new pg.Client({
   user: process.env.POSTGRES_USER,
   password: process.env.POSTGRES_PASSWORD,
 });
-await client.connect();
+client.connect();
 export { client as db };
 export { minioClient as s3 };

@@ -106,6 +106,7 @@ export default async function Page({
         {node.data.split(".")[0]} <AnimatedDot /> {node.data.split(".")[1]}{" "}
       </>
     );
+
     return (
       // <PostLayout title={node.data}>
       <div className="prose mx-auto px-2 min-h-screen h-max w-screen py-10 pb-28">
