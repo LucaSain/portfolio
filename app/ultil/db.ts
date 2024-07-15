@@ -55,11 +55,12 @@ export default class Database {
 
   findId = async (path: Array<string>) => {
     if (path.length === 0) return -1;
-    if (path.length === 1 || path.length === 0) return 1;
+    if (path.length === 1) return 1;
     const parentPath = path.slice(0, -1);
     const name = path.slice(-1)[0];
     const parentId = await this.findId(parentPath);
     const child = await this.getChild(parentId, name);
+    if (!child) return -1;
     return child.id;
   };
 
