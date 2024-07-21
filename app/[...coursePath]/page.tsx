@@ -59,7 +59,7 @@ const markdownPage = async ({ source, title }: MarkdownPageParams) => {
   if (!source) return null;
   return (
     <div className="prose mx-auto px-2 min-h-screen h-max w-screen pb-20">
-      <h1 className="flex flex-row mb-0 text-center text-6xl font-bold lg:text-7xl">
+      <h1 className="flex flex-row mb-0 text-6xl font-bold lg:text-7xl pb-10">
         {title}
       </h1>
       <Suspense fallback={<div>Loading...</div>}>
