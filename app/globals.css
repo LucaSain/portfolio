@@ -27,13 +27,13 @@ pre {
     filter: invert(1);
     box-shadow: none;
   }
-  p>mjx-container{
+  p>mjx-container, li>mjx-container{
     @apply !text-neutral-content;
   }
 }
 
 
-p>mjx-container{
+p>mjx-container, li>mjx-container{
   display: inline-block !important;
   justify-content: start !important;
   background: transparent;
