@@ -5,13 +5,14 @@ import remarkParse from "remark-parse";
 import rehypeStringify from "rehype-stringify";
 //@ts-expect-error
 import rehypePrism from "@mapbox/rehype-prism";
+import remarkGfm from "remark-gfm";
 import remarkRehype from "remark-rehype";
 
 const processMdx = async (data: string) => {
   return await serialize(data as string, {
     scope: {},
     mdxOptions: {
-      remarkPlugins: [remarkRehype, remarkMath, remarkParse],
+      remarkPlugins: [remarkRehype, remarkMath, remarkParse, remarkGfm],
       rehypePlugins: [rehypeMathjax, rehypeStringify, rehypePrism],
       format: "mdx",
       development: process.env.NODE_ENV === "development",
